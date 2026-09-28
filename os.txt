@@ -1,0 +1,16 @@
+root@localhost:~# touch pic1.jpg pic2.jpg pic3.jpg pic4.jpg pic5.jpg
+root@localhost:~# touch music1.mp3 music2.mp3 music3.mp3 music4.mp3 music5.mp3
+root@localhost:~# touch video1.mp4 video2.mp4 video3.mp4 video4.mp4 video5.mp4
+root@localhost:~# mkdir pictures audios videos
+root@localhost:~# cp pic1.jpg pic2.jpg pic3.jpg pic4.jpg pic5.jpg pictures
+root@localhost:~# mv music1.mp3 music2.mp3 music3.mp3 music4.mp3 music5.mp3 audios
+root@localhost:~# mv video1.mp4 video2.mp4 video3.mp4 video4.mp4 video5.mp4 videos
+root@localhost:~# ls pictures
+pic1.jpg  pic2.jpg  pic3.jpg  pic4.jpg  pic5.jpg
+root@localhost:~# ls audios
+music1.mp3  music2.mp3  music3.mp3  music4.mp3  music5.mp3
+root@localhost:~# ls vidoes
+ls: cannot access 'vidoes': No such file or directory
+root@localhost:~# ls videos
+video1.mp4  video2.mp4  video3.mp4  video4.mp4  video5.mp4
+root@localhost:~# 
