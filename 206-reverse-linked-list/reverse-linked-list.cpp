@@ -14,10 +14,10 @@ public:
         ListNode* prev = NULL;
         ListNode* curr = head;
         while(curr != NULL){
-         ListNode* next = curr->next;
-         curr->next=prev;
-         prev = curr;
-         curr =next;
+         ListNode* next = curr->next; // preseve the next node add , so that we can reach
+         curr->next=prev; //replace the current next with prev node address
+         prev = curr;  // for the next node current will be prev
+         curr =next;    // move current too the next node to repeat the procees
         }
         return prev;
     }
